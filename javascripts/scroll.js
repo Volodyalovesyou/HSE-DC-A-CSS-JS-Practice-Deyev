@@ -8,7 +8,7 @@ $(function() {
       return el != exclude
     });
 
-    return STATES[Math.floor(Math.random() * possibleStates.length)]
+    return possibleStates[Math.floor(Math.random() * possibleStates.length)]
   }
 
   function randomizeState () {
